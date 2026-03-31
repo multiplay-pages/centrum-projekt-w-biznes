@@ -37,7 +37,7 @@ export function HeroSection() {
           {/* Pill badge */}
           <div className="mb-7 inline-flex items-center gap-2.5 rounded-full border border-border/80 bg-card/80 px-5 py-2.5 text-[13px] font-semibold text-muted-foreground backdrop-blur-sm">
             <Sparkles className="h-3.5 w-3.5 text-primary" />
-            Centrum zasobów i narzędzi
+            Zasoby operacyjne w jednym miejscu
           </div>
 
           {/* Headline */}
