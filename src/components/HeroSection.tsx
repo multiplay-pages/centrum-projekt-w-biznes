@@ -61,7 +61,7 @@ export function HeroSection() {
               onClick={scrollToProjects}
               className="h-[52px] rounded-xl px-9 text-[15px] font-semibold"
             >
-              Przeglądaj projekty
+              Znajdź zasób
               <ArrowDown className="ml-2 h-4 w-4" />
             </Button>
             <Button
