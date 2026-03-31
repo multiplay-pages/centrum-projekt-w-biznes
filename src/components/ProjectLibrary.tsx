@@ -37,8 +37,8 @@ export function ProjectLibrary() {
       <div className="container mx-auto px-5 sm:px-8 lg:px-10">
         <div className="mb-10">
           <SectionHeader
-            title="Wszystkie projekty"
-            subtitle="Przeglądaj pełną bibliotekę kalkulatorów, procedur, tabel i narzędzi."
+            title="Biblioteka zasobów"
+            subtitle="Pełna lista kalkulatorów, procedur, tabel i narzędzi — filtruj lub szukaj po nazwie."
             accent
           />
         </div>
@@ -49,7 +49,7 @@ export function ProjectLibrary() {
           <div className="relative mb-5">
             <Search className="absolute left-4 top-1/2 h-[18px] w-[18px] -translate-y-1/2 text-muted-foreground/50" />
             <Input
-              placeholder="Szukaj projektu po nazwie, opisie lub tagu..."
+              placeholder="Szukaj po nazwie, tagu lub słowie kluczowym..."
               value={filters.search}
               onChange={(e) => setSearch(e.target.value)}
               className="h-12 rounded-xl border-border bg-background pl-11 pr-4 text-[15px] shadow-sm focus-visible:ring-primary/20 focus-visible:ring-offset-0 focus-visible:border-primary/40"
