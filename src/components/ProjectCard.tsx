@@ -143,6 +143,8 @@ export function ProjectCard({ project }: { project: Project }) {
   return (
     <a
       href={project.url}
+      target="_blank"
+      rel="noopener noreferrer"
       className="group card-elevated flex flex-col p-6"
     >
       <div className="mb-4 flex items-start justify-between gap-3">
