@@ -66,7 +66,7 @@ export function HeroSection() {
               onClick={() => scrollTo("wyrozniione")}
               className="h-[52px] rounded-xl px-9 text-[15px] font-semibold"
             >
-              Przejdź do zasobów
+              Zobacz narzędzia
               <ArrowDown className="ml-2 h-4 w-4" />
             </Button>
             <Button
@@ -75,7 +75,7 @@ export function HeroSection() {
               onClick={() => scrollTo("wszystkie-zasoby")}
               className="h-[52px] rounded-xl px-9 text-[15px] font-semibold"
             >
-              Wszystkie zasoby
+              Szukaj w indeksie
             </Button>
           </div>
         </div>
